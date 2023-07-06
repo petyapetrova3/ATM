@@ -30,15 +30,3 @@ Upon launching the program, users are prompted to enter their account number and
 Once authenticated, they can choose from various options such as withdrawing funds, depositing funds, 
 checking their balance, or changing their PIN. The program validates user input, performs the requested operations, 
 and provides appropriate feedback to the user.
-
-
-Description of the tables:
-
-Table name acounts 
-Column INT account_number,
-Column DOUBLE balance
-
-Table name customers
-Column INT account_number
-Column char name
-Column INT pin
